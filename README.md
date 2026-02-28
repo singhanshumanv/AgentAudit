@@ -1,127 +1,76 @@
-🛡 AgentAudit — Real-Time AI Safety Shield
+<h1 align="center">🛡 AgentAudit</h1>
 
-AgentAudit is a Chrome/Opera extension that performs real-time ethical analysis of web content using AI.
+<p align="center">
+  <b>Real-Time AI Safety Shield for the Web</b><br/>
+  AI auditing AI. Protecting users from manipulation, bias & hidden persuasion.
+</p>
+
+<hr/>
+
+<h2>🚀 Overview</h2>
+
+AgentAudit is a Chrome/Opera extension that performs real-time ethical analysis of webpage content using AI.
 
 It detects:
+<ul>
+  <li>⚠ Manipulation tactics</li>
+  <li>🧠 Hidden bias</li>
+  <li>🔐 Privacy risks</li>
+  <li>🎭 Dark patterns</li>
+</ul>
 
-Manipulation tactics
+And assigns a calibrated <b>Trust Score</b> directly on the webpage.
 
-Hidden bias
+<hr/>
 
-Privacy risks
+<h2>🔥 Features</h2>
 
-Dark patterns
+<ul>
+  <li>🧠 AI-Powered Audit (Groq + Llama 3.1)</li>
+  <li>📊 Animated Trust Score (0–100)</li>
+  <li>🛡 Floating Risk Badge</li>
+  <li>🌑 AI Shield Overlay Mode</li>
+  <li>🖍 Risk Phrase Highlighting</li>
+  <li>📈 Risk Trend Tracking</li>
+</ul>
 
-And assigns a calibrated Trust Score directly on the webpage.
+<hr/>
 
-Why AgentAudit?
+<h2>⚙️ Tech Stack</h2>
 
-Modern AI-driven platforms influence user decisions at massive scale.
-Users currently have no real-time protection against:
+<p>
+React • Vite • Chrome Extension (Manifest v3) • Groq API • Prompt Engineering
+</p>
 
-Psychological manipulation
+<hr/>
 
-False urgency
+<h2>🛠 Local Setup</h2>
 
-Biased recommendations
-
-Hidden persuasion tactics
-
-AgentAudit acts as an AI watchdog, auditing content before it influences the user.
-
- Key Features
- AI-Powered Ethical Audit
-
-Uses Groq (Llama 3.1) to analyze webpage content in real time.
-
-🎯 Calibrated Trust Score
-
-80–100 → Safe
-
-40–79 → Caution
-
-0–39 → High Risk
-
-🛡 Floating Trust Badge
-
-Displays live trust score directly on the webpage.
-
-🌑 AI Shield Overlay Mode
-
-Cinematic full-page risk overlay after analysis.
-
-🖍 Risk Phrase Highlighting
-
-Highlights urgency-based and manipulative phrases.
-
-📊 Animated Trust Meter
-
-Smooth animated score transition.
-
-📈 Risk Trend Tracking
-
-Compares previous and current page scores.
-
-🚩 Structured Risk Flags
-
-Manipulation Detected
-
-Bias Detected
-
-PII Request Detected
-
-🏗 Tech Stack
-
-React (Vite)
-
-Chrome Extension Manifest v3
-
-Groq API (Llama 3.1)
-
-chrome.scripting API
-
-Prompt-engineered scoring logic
-
-⚙️ How It Works
-
-User clicks "Analyze Current Page"
-
-Extension extracts webpage content
-
-Content is sent to Groq AI
-
-AI classifies page type and evaluates ethical risks
-
-Trust Score is calculated and calibrated
-
-Results are displayed:
-
-Popup dashboard
-
-Floating badge
-
-Full-page overlay
-
-Highlighted risky phrases
-
-🛠 Installation (Local Development)
+<pre>
 npm install
 npm run build
+</pre>
 
 Then:
 
-Open browser
+<ol>
+  <li>Open <code>chrome://extensions</code></li>
+  <li>Enable Developer Mode</li>
+  <li>Click “Load Unpacked”</li>
+  <li>Select the <code>dist</code> folder</li>
+</ol>
 
-Go to chrome://extensions
+<hr/>
 
-Enable Developer Mode
+<h2>🔐 Environment Variable</h2>
 
-Click “Load Unpacked”
-
-Select the dist folder
-
-🔐 Environment Variables
-
-Create a .env file:
-
+<pre>
 VITE_GROQ_KEY=your_api_key_here
+</pre>
+
+<hr/>
+
+<p align="center">
+  Built for AI Safety Hackathon 🚀<br/>
+  <b>AgentAudit — AI Auditing AI.</b>
+</p>
